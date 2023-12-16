@@ -98,6 +98,33 @@ To see if our shared mailbox is properly configured, click on the rows of dots i
         ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/4ad91c62-598a-4c4b-a5b2-02376dc88c3a)
 ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/9814a815-2051-47f6-bb24-a16cc495a260)
 
+We will now access Microsoft Sharepoint
+  - Sharepoint can be used to recover deleted emails from end-users
+  - To do this, click "More features" when on Sharepoint, and select "Open" under User profiles
+  - Select "Manage user profiles"
+  - Search the name of the user who wants to recover their deleted document
+  - Click with your cursor under account name and select "Manage personal site"
+  - Under Site Collection Administration, select "Recycle bin"
+  - If end-user emptied the recycle bin, select "second-stage recycle bin" at the bottom
+  - Deleted document should appear and now be able to be restored
+
+    ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/68bac8f1-bf5d-4336-9e7e-ffba4edf3ccd)
+    ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/474d3bca-8a32-48b9-954d-432062cb5cf5)
+    ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/8652bb75-dc1c-49f0-9ea4-caf17160ffc1)
+
+Under SharePoint, you can also create different sites for departments
+  - These sites are where departments can communicate and collaborate on different projects
+  - Click "Active sites" and then select "Create"
+  - From there, we can choose the site name and address, assign owners and members, and include information about the site
+  - As administrators, we can help edit department sites if need be
+      - We can also delete sites for departments
+  - Within the site, departments can also access OneNote for detailed information that can be edited by site members 
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/aefb0d50-300f-48d8-83d8-56248b009ea1)
+    ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/e5950843-7653-45ae-8d93-a9fd63546648)
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/9a8673fb-f9d6-456a-8162-4e579d36a6f6)
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/15759041-4b74-42ea-a9e1-9aed868ca785)
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/6526bde5-9ebe-4edc-a566-4ad61db092c3)
+
 
 
 - We will now block this connection by going back to Microsoft Azure, and typing in "Network Security Groups" into the search bar
