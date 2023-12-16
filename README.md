@@ -46,6 +46,17 @@ We can also delete Adele's profile by selecting the "Delete user" option on her 
 - Once we select "finish", Jane Doe's account has been created, and she has been assigned the proper license
 ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/55701fa5-a962-4cf6-9899-b41f341162fd)
 
+If we want to create a Team in Office 365, we click "Teams and Groups" on the left 
+  - Select "Active Teams and Groups"
+  - Select "Add a Team"
+  - Begin to create the name of the team, assign owners, and add members 
+  - Create the email address of the team and select "Add team"
+    ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/7680f5d0-a437-4057-8a22-6476494f43c6)
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/2e15c51d-9fe2-4090-a2d5-799b263d83ba)
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/71fbed8f-4faf-46c1-81ee-dd6e5d74d6f5)
+- We can now see the Engineering Department team under Active Teams and Groups
+  - If we click on the team, we wil be able to see the owners and members of the team, general information, and be able to change settings of the Team
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/63a3ad9b-3198-4b69-aa2b-582522f5afe1)
 
 - We will now block this connection by going back to Microsoft Azure, and typing in "Network Security Groups" into the search bar
 - On the left, we can click the "Inbound Security Rules" tab, and click the add button - this tab is selected because we want to block any ICMP traffic coming into VM2, hence the word "inbound"
