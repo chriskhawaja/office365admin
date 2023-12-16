@@ -84,6 +84,21 @@ To see if our shared mailbox is properly configured, click on the rows of dots i
     ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/f1c89017-143d-4f6a-84e7-ec55701837d4)
     ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/ec61e2cb-71ec-4c5f-a8f2-61c900a824a4)
 
+    In Office 365, we can also troubleshoot Microsoft Outlook email messages
+      - End-users might have trouble receiving or sending messages, and Microsoft Exchange can help us trace these messages
+      - Under the Admin center, we will select "Exchange"
+      - From there, on the left side, we will click "Mail flow", and select "Mail trace"
+      - Select the "Start a trace" button
+      - On the right, enter the sender and recipient email address to trace the message
+      - Select "Search"
+      - Select the message under results to bring up any diagnostic information
+          - If there is an issue, select "Report Message" at the bottom to submit to Microsoft for Analysis
+       
+    ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/04830c1a-e640-4749-9509-fee2547e3144)
+        ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/4ad91c62-598a-4c4b-a5b2-02376dc88c3a)
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/9814a815-2051-47f6-bb24-a16cc495a260)
+
+
 
 - We will now block this connection by going back to Microsoft Azure, and typing in "Network Security Groups" into the search bar
 - On the left, we can click the "Inbound Security Rules" tab, and click the add button - this tab is selected because we want to block any ICMP traffic coming into VM2, hence the word "inbound"
