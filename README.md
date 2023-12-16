@@ -58,6 +58,33 @@ If we want to create a Team in Office 365, we click "Teams and Groups" on the le
   - If we click on the team, we wil be able to see the owners and members of the team, general information, and be able to change settings of the Team
 ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/63a3ad9b-3198-4b69-aa2b-582522f5afe1)
 
+Each user on Office 365 will have their own inbox
+  - However, users that are part of the same team can have access to a shared mailbox
+  - External customers can send information to the email of the shared mailbox
+  - Members of the group can also communicate to other members within the shared mailbox
+  - Having a shared mailbox allows department spefic questions to go to a particular mailbox
+
+Under Teams and Groups, select "Shared Mailboxes"
+  - Click "Add a shared mailbox"
+  - Create a name and an email for the shared mailbox
+  - Select "Save changes" when done
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/66074964-aeb7-43aa-8281-9bdde2cb97a2)
+
+Our newly created Engineering Department has a shared mailbox
+  - Now it's time to add members
+      - On the right side of the screen, under members, select "edit"
+  ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/a1a4de1c-b2a9-4afe-96e9-baf37cfc7f48)
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/ca95c098-6e58-4764-a63f-e2d36ef98260)
+
+To see if our shared mailbox is properly configured, click on the rows of dots in the top left corner, and select "Outlook"
+  - You can see that I am part of the Engineering Department group
+  - Additionally, I have a shared mailbox, along with my normal mailbox for myself
+
+    
+    ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/f1c89017-143d-4f6a-84e7-ec55701837d4)
+    ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/ec61e2cb-71ec-4c5f-a8f2-61c900a824a4)
+
+
 - We will now block this connection by going back to Microsoft Azure, and typing in "Network Security Groups" into the search bar
 - On the left, we can click the "Inbound Security Rules" tab, and click the add button - this tab is selected because we want to block any ICMP traffic coming into VM2, hence the word "inbound"
 - Be sure to select ICMP as the protocol and the deny option
