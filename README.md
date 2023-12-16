@@ -34,6 +34,19 @@ We can also delete Adele's profile by selecting the "Delete user" option on her 
 
   ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/65c7b559-ddab-47fe-b552-56d7d05fef15)
 
+- We can begin to create an account for Jane Doe
+- We can add assing her a license and choose what application should be available with the license
+- We can assign Jane Administrator acces or configure her as a standard user (no access)
+- We can configure Jane's work information
+  ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/9ea9f407-9e91-4841-bd20-521b259e78ae)
+  ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/3e82591b-ef2d-452d-a1f8-fa992913ce98)
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/8735d7f8-c45c-4ada-a24d-aeeae5576b90)
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/b1db9d0f-7381-4fea-bf05-1931bfea9bc4)
+
+- Once we select "finish", Jane Doe's account has been created, and she has been assigned the proper license
+![image](https://github.com/chriskhawaja/office365admin/assets/153021794/55701fa5-a962-4cf6-9899-b41f341162fd)
+
+
 - We will now block this connection by going back to Microsoft Azure, and typing in "Network Security Groups" into the search bar
 - On the left, we can click the "Inbound Security Rules" tab, and click the add button - this tab is selected because we want to block any ICMP traffic coming into VM2, hence the word "inbound"
 - Be sure to select ICMP as the protocol and the deny option
