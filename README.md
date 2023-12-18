@@ -35,7 +35,7 @@ We can also delete Adele's profile by selecting the "Delete user" option on her 
   ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/65c7b559-ddab-47fe-b552-56d7d05fef15)
 
 - We can begin to create an account for Jane Doe
-- We can add assing her a license and choose what application should be available with the license
+- We can assign her a license and choose what applications should be available with the license
 - We can assign Jane Administrator acces or configure her as a standard user (no access)
 - We can configure Jane's work information
   ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/9ea9f407-9e91-4841-bd20-521b259e78ae)
