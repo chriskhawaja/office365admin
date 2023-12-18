@@ -26,7 +26,7 @@ Additionally, if we go back to Adele's profile, we can block her from signing-in
 
 We can also delete Adele's profile by selecting the "Delete user" option on her profile
 - Deleting her account will unassign her license and make it available to others
-- We can also give other users access to her OneDrive files and emal
+- We can also give other users access to her OneDrive files and email
 
   ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/aa87166b-bd65-437b-a26e-a9c323ec97f1)
 
