@@ -124,3 +124,8 @@ Under SharePoint, you can also create different sites for departments
 ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/9a8673fb-f9d6-456a-8162-4e579d36a6f6)
 ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/15759041-4b74-42ea-a9e1-9aed868ca785)
 ![image](https://github.com/chriskhawaja/office365admin/assets/153021794/6526bde5-9ebe-4edc-a566-4ad61db092c3)
+
+
+
+
+**** Picture used at the top of personal project is not mine (taken from Google)
